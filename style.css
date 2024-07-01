@@ -1,8 +1,8 @@
-@font-face {
+/*@font-face {
   font-family: 'Poppins';
   src: url("./assets/fonts/Poppins-Light.ttf");
 }
-
+*/
 * {
   box-sizing: border-box; /* borders and padding sizes will be taken into account in values that reveal restrictions in the width and height of the element. This transforms the work with dimensions, which allows them to be more logical*/
 }
