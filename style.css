@@ -1,0 +1,36 @@
+/*@font-face {
+  font-family: 'Poppins';
+  src: url("./assets/fonts/Poppins-Light.ttf");
+}
+*/
+* {
+  box-sizing: border-box; /* borders and padding sizes will be taken into account in values that reveal restrictions in the width and height of the element. This transforms the work with dimensions, which allows them to be more logical*/
+}
+
+body{
+  font-family: 'Poppins';
+  min-height: 100vh; /*min height of the body can't be less than the height page*/
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* redef direction of main axis*/
+  justify-content: space-between; /*align elems along main axis, all elem's are delayed at max distance from each other, extreme ones are pressed to the borders of the parent.*/
+}
+
+.container{
+  max-width: 1440px; /* container width limit */
+  margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+  border: 1px solid red;
+}
+/* MAIN */
+.main {
+  border: 1px solid red;
+}
+/* FOOTER */
+.footer {
+  border: 1px solid red;
+}
