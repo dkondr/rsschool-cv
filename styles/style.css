@@ -1,5 +1,9 @@
-body {
-  background-color: purple;
+@font-face {
+  font-family: 'Poppins';
+  src: url("../assets/fonts/Poppins-Light.ttf");
 }
 
-/*# sourceMappingURL=style.css.map */
+body {
+  background-color: aqua;
+  font-family: 'Poppins';
+}/*# sourceMappingURL=style.css.map */
