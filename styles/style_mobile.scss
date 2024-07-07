@@ -1,0 +1,140 @@
+@media (max-width: 1024px) {
+  .container, .header, .profile, .contacts, .summary, .skills, .code, .courses, .projects, .education, .languages, .footer{
+    width: 100%;
+    margin: 5%;
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: none;
+    font-size: 8px;
+    
+    .skills__item, .courses__item, .projects__link {
+      font-size: 8px;
+    }
+
+    .skills__item img {
+      width: 80%;
+      padding-left: 5%;
+    }
+
+    .skills__list {
+      padding: 0;
+    }
+
+  }
+
+  .title {
+    margin: 0 auto;
+  }
+
+  body {
+    font-size: 8px;
+  }
+  
+  .header {
+    margin: 0 auto;
+
+    .container {
+      margin: 0 auto;
+      justify-content: center;
+    }
+  }
+
+  .nav__list {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  .nav__link {
+    padding: 2px;
+    font-size: 8px;
+  }
+
+  .profile {
+    align-content: flex-start;
+    height: auto;
+  }
+
+  .profile__img {
+    height: 40%;
+    width: 40%;
+
+  }
+
+  .profile__wrapper {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .h1 {
+    
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    font-size: 12px;
+    letter-spacing: 6px;
+    padding-bottom: 6px;
+  }
+
+  .profile__description {
+    font-size: 10px;
+  }
+
+  .contacts {
+    justify-content: center;
+  }
+  .contacts__item {
+    margin: 0 auto;
+    padding: 1%;
+    list-style: none;
+
+    img {
+      width: 90%;
+    }
+  }
+
+  .skills__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .code, .projects, .education, .languages{
+    justify-content: center;
+  }
+
+  .projects .title, .languages .title{
+    margin: 0 15%;
+    justify-content: center;
+  }
+
+  .languages__list {
+    padding: 0;
+  }
+
+  .footer {
+    margin: 0;
+    
+  }
+
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+
+  }
+
+  .footer__div {
+    font-size: 10px;
+  }
+
+  .footer__github {
+    font-size: 10px;
+  }
+  
+
+}
