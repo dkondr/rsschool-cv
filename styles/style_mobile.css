@@ -1,0 +1,109 @@
+@media (max-width: 1024px) {
+  .container, .header, .profile, .contacts, .summary, .skills, .code, .courses, .projects, .education, .languages, .footer {
+    width: 100%;
+    margin: 5%;
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: none;
+    font-size: 8px;
+  }
+  .container .skills__item, .container .courses__item, .container .projects__link, .header .skills__item, .header .courses__item, .header .projects__link, .profile .skills__item, .profile .courses__item, .profile .projects__link, .contacts .skills__item, .contacts .courses__item, .contacts .projects__link, .summary .skills__item, .summary .courses__item, .summary .projects__link, .skills .skills__item, .skills .courses__item, .skills .projects__link, .code .skills__item, .code .courses__item, .code .projects__link, .courses .skills__item, .courses .courses__item, .courses .projects__link, .projects .skills__item, .projects .courses__item, .projects .projects__link, .education .skills__item, .education .courses__item, .education .projects__link, .languages .skills__item, .languages .courses__item, .languages .projects__link, .footer .skills__item, .footer .courses__item, .footer .projects__link {
+    font-size: 8px;
+  }
+  .container .skills__item img, .header .skills__item img, .profile .skills__item img, .contacts .skills__item img, .summary .skills__item img, .skills .skills__item img, .code .skills__item img, .courses .skills__item img, .projects .skills__item img, .education .skills__item img, .languages .skills__item img, .footer .skills__item img {
+    width: 80%;
+    padding-left: 5%;
+  }
+  .container .skills__list, .header .skills__list, .profile .skills__list, .contacts .skills__list, .summary .skills__list, .skills .skills__list, .code .skills__list, .courses .skills__list, .projects .skills__list, .education .skills__list, .languages .skills__list, .footer .skills__list {
+    padding: 0;
+  }
+  .title {
+    margin: 0 auto;
+  }
+  body {
+    font-size: 8px;
+  }
+  .header {
+    margin: 0 auto;
+  }
+  .header .container {
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .nav__list {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  .nav__link {
+    padding: 2px;
+    font-size: 8px;
+  }
+  .profile {
+    align-content: flex-start;
+    height: auto;
+  }
+  .profile__img {
+    height: 40%;
+    width: 40%;
+  }
+  .profile__wrapper {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .h1 {
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    font-size: 12px;
+    letter-spacing: 6px;
+    padding-bottom: 6px;
+  }
+  .profile__description {
+    font-size: 10px;
+  }
+  .contacts {
+    justify-content: center;
+  }
+  .contacts__item {
+    margin: 0 auto;
+    padding: 1%;
+    list-style: none;
+  }
+  .contacts__item img {
+    width: 90%;
+  }
+  .skills__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .code, .projects, .education, .languages {
+    justify-content: center;
+  }
+  .projects .title, .languages .title {
+    margin: 0 15%;
+    justify-content: center;
+  }
+  .languages__list {
+    padding: 0;
+  }
+  .footer {
+    margin: 0;
+  }
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+  }
+  .footer__div {
+    font-size: 10px;
+  }
+  .footer__github {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=style_mobile.css.map */
