@@ -200,6 +200,23 @@ body {
 }
 
 /* SUMMARY */
+
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.summary__title {
+  padding: 0 2%;
+}
+
+.summary__description {
+  display: flex;
+  text-align: justify;
+  padding: 0 2%;
+}
+
 /* SKILLS */
 /* CODE */
 /* COURSES */
