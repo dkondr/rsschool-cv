@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+@mixin underline() {
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+
 @font-face {
   font-family: 'Poppins';
   src: url('../assets/fonts/Poppins-Light.ttf');
@@ -15,8 +19,8 @@ html {
 
 body {
   font-family: 'Poppins';
-  background-color: #ffffff;
-  font-size: 18px;
+  background-color: #f1f1ec;
+  font-size: 20px;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -32,6 +36,11 @@ body {
 
 .skip {
   display: none;
+}
+
+.main__wrapper {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* HEADER */
@@ -72,7 +81,7 @@ body {
 .section {
   width: calc(50% - 15px);
   margin: 5px;
-  padding: 10px;
+  padding: 2%;
   padding-bottom: 35px;
 }
 
@@ -204,7 +213,7 @@ body {
 .summary {
   display: flex;
   flex-wrap: wrap;
-  border-bottom: 3px solid rgb(0, 0, 0);
+  border-bottom: 10px solid rgb(0, 0, 0);
 }
 
 .summary__title {
@@ -215,11 +224,63 @@ body {
   display: flex;
   text-align: justify;
   padding: 0 2%;
+  margin: 25px 0;
 }
 
 /* SKILLS */
+
+.skills, .code, .courses, .projects {
+  @include underline();
+}
+
+
+.skills__item {
+  margin: 5px;
+  list-style: none;
+  font-weight: 700;
+  color: #000;
+  font-size: 20px;
+  text-decoration-line: none;
+  transition:  0.5s;
+  cursor: default;
+}
+
+.skills__item:hover {
+  color: rgb(226, 206, 25);
+}
+
+.skills__item {
+  list-style-type: '🚀';
+}
+
 /* CODE */
+
+.code__pre {
+  font-weight: 700;
+  background-color: rgb(255, 255, 3);
+  border-radius: 25px;
+  color: rgb(141, 141, 141);
+}
+
 /* COURSES */
+
+
+
+/* PROJECTS */
+
+.sk {
+  font-weight: 700;
+  color: #000;
+  font-size: 20px;
+  text-decoration-line: none;
+  transition:  0.5s;
+}
+
+.co:hover {
+  color: rgb(255, 255, 3);
+  text-decoration-line: underline;
+}
+
 /* EDUCATION */
 /* LANGUAGES */
 /* FOOTER */
