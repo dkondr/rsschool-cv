@@ -358,7 +358,8 @@ body {
 }
 
 .footer__github:hover {
-  color: rgb(255, 219, 31);
+  color: $orange-color;
+  font-size: 24px;
   text-decoration-line: underline;
 }
 
